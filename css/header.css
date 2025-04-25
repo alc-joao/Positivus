@@ -1,0 +1,59 @@
+header {
+    height: 200vh;
+
+}
+
+body {
+    margin: 0 150px;
+}
+
+.conteudo-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo-header {
+    font-size: 80px;
+    font-family: "Space Grotesk", sans-serif;
+    margin: 0;
+}
+
+.paragrafos-header {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 30px;
+    margin: 30px 0 60px 0;
+}
+
+.img-header {
+    width: 750px;
+}
+
+.botao-header {
+    text-decoration: none;
+    font-family: "Space Grotesk", sans-serif;
+    background-color: black; 
+    color: white; 
+    padding: 12px 24px;
+    border: 1px solid black;
+    border-radius: 12px;
+    font-size: 25px; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+  }
+  
+  /* Efeito ao passar o mouse */
+  .botao-header:hover {
+    background-color: white; /* Cor mais escura quando hover */
+    color: black;
+  }
+  
+  /* Efeito quando clicado */
+  .botao-header:active {
+    background-color: rgb(235, 234, 234); /* Cor ainda mais escura no clique */
+  }
+
+  .imagens-logo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+  }
