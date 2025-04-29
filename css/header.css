@@ -1,6 +1,5 @@
 header {
-    height: 200vh;
-
+    height: 100vh;
 }
 
 body {
@@ -41,13 +40,11 @@ body {
     transition: background-color 0.3s; 
   }
   
-  /* Efeito ao passar o mouse */
   .botao-header:hover {
     background-color: white; /* Cor mais escura quando hover */
     color: black;
   }
   
-  /* Efeito quando clicado */
   .botao-header:active {
     background-color: rgb(235, 234, 234); /* Cor ainda mais escura no clique */
   }

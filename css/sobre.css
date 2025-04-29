@@ -1,0 +1,211 @@
+.sobre {
+    height: 100vh;
+    margin-top: 150px;
+}
+
+.sobre-textos {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.titulo-sobre {
+    border-radius: 10px;
+    text-align: center;
+    width: 230px;
+    height: 60px;
+    background-color: #B9FF66;
+    font-size: 50px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 600;
+}
+
+.paragrafo-sobre {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 25px;
+}
+
+.colunas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card-um {
+    background-color: #F3F3F3;
+    width: 48%;
+    height: 380px;
+    border-radius: 20px;
+    box-shadow: 0 10px 5px 0 black;
+    display: flex;
+}
+
+.card-grande {
+    margin-top: 150px;
+    background-color: #F3F3F3;
+    width: 100%;
+    height: 380px;
+    border-radius: 20px;
+    box-shadow: 0 10px 5px 0 black;
+    display: flex;
+}
+
+.card-preto {
+    background-color: #000000;
+}
+
+.card-verde {
+    background-color: #B9FF66;
+}
+
+.alinhar-textos {
+    flex-direction: column;
+    display: flex;
+}
+
+.texto-card {
+    font-size: 40px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+.numero-um {
+    background-color: #B9FF66;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.barra-um {
+    background-color: #fff;
+}
+
+.numero-dois {
+    background-color: #B9FF66;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.email {
+    width: 150px;
+}
+
+.content {
+    width: 200px;
+}
+
+.creation {
+    width: 180px;
+}
+
+.tracking {
+    width: 180px;
+}
+
+.verde {
+    background-color: #B9FF66;
+}
+
+.branco {
+    background-color: #fff;
+}
+
+.botao-card {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.link-card {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 30px;
+    margin: 0;
+}
+
+.link-branco {
+    color: #fff;
+}
+
+.img-link-card {
+    width: 50px;
+}
+
+.img-card {
+    width: 300px;
+}
+
+.img-card-dois {
+    margin-top: 40px;
+}
+
+.img-card-tres {
+    width: 270px;
+}
+
+.img-card-quatro {
+    width: 270px;
+    margin: 15px 0 0px 45px;
+}
+
+.img-card-cinco {
+    margin-left: 50px;
+}
+
+.img-card-principal {
+    margin: 50px 50px;
+}
+
+.paragrafos-card {
+    margin: 50px 26px 50px 50px;
+}
+
+.card-grande {
+    justify-content: space-between;
+}
+
+.paragrafos-card-grande {
+    margin: 50px 50px;
+}
+
+.titulo-card-grande {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+}
+
+.texto-card-grande {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 25px;
+    margin: 0 0 40px 0;
+}
+
+.img-card-grande {
+    width: 500px;
+    margin-right: 100px;
+}
+
+.botao-card-grande {
+    text-decoration: none;
+    font-family: "Space Grotesk", sans-serif;
+    background-color: black; 
+    color: white; 
+    padding: 12px 24px;
+    border: 1px solid black;
+    border-radius: 12px;
+    font-size: 25px; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+  }
+  
+  .botao-card-grande:hover {
+    background-color: white; /* Cor mais escura quando hover */
+    color: black;
+  }
+  
+  .botao-card-grande:active {
+    background-color: rgb(235, 234, 234); /* Cor ainda mais escura no clique */
+  }
